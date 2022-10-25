@@ -26,15 +26,16 @@ header a{
     min-height: 200px;
     width: 100%;
 }
-.immagine{
-    width: 100px;
-    height: 100px;
-    border: 1px solid black;
-}
 .box{
     height: 50px;
     border: 1px solid red;
 }
 .start-bootstrap img{
-    width: 15vw;
+    width: 200px;
+    height: 200px;
+}
+/* portfolio */
+.img{
+    height: 200px;
+    border: 1px solid black;
 }
