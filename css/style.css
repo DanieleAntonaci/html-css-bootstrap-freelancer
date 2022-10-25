@@ -36,4 +36,10 @@ header a{
 }
 /* portfolio */
 
-
+/* about */
+.blue{
+    background-color: #3a546d;
+}
+.dark-blue{
+    background-color: #2c3e50;
+}
