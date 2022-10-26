@@ -8,7 +8,7 @@ a{
 }
 
 /* HEADER */
-header {
+header .navbar{
     background-color: #2c3e50;
     
 }
@@ -18,28 +18,58 @@ header nav{
 header a{
     color: white;
 }
+.navbar-toggler{
+    border-color: white;
+}
+.navbar-toggler-icon{
+    filter: invert(100%) sepia(3%) saturate(208%) hue-rotate(169deg) brightness(94%) contrast(85%);
 
+}
 /* MAIN */
+main{
+    margin-top: 80px;
+}
 /* start bootstrap */
 .bg-green{
     background-color: #1abc9c;
-    min-height: 200px;
-    width: 100%;
+
 }
 .box{
     height: 50px;
     border: 1px solid red;
 }
 .start-bootstrap img{
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
+}
+.ms-star-line{
+    width: 100px;
+    height: 2px;
+    
+}
+/* contact */
+.contact-me .ms-send{
+    padding: 8px 10px;
+    margin-top: 10px;
 }
 /* portfolio */
-
 /* about */
+.ms_around div{
+    padding-bottom: 40px;
+}
+.fa-brands{
+    padding: 17px;
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 52px;
+}
 .blue{
     background-color: #3a546d;
 }
 .dark-blue{
     background-color: #2c3e50;
+}
+/* footer */
+.ms_color_green{
+    color: #1abc9c;
 }
